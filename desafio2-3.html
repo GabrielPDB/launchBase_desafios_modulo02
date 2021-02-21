@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Desafio 2-3 - Introdução ao Front End</title>
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/rocketseat-education/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico"
+        type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #282A36;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+
+        header {
+            padding: 30px;
+        }
+
+        .links a {
+            color: white;
+            font-size: 18px;
+            line-height: 28px;
+            margin: 0 16px;
+            text-decoration: none;
+        }
+
+        header div a {
+            padding: 30px;
+            color: white;
+            text-decoration: none;
+        }
+
+        header div a:hover {
+            color: #50fa7b;
+            transition: color 200ms;
+        }
+
+        #wrapper {
+            text-align: center;
+            padding: 32px;
+        }
+
+        #wrapper img {
+            width: 300px;
+            border-radius: 50%;
+        }
+
+        #wrapper h1 {
+            color: #6633cc;
+            font-size: 48px;
+        }
+
+        #wrapper h1:hover {
+            color: #50fa7b;
+            transition: 200ms;
+            cursor: pointer;
+        }
+
+        #wrapper p {
+            color: white;
+            font-size: 24px;
+        }
+
+        #wrapper ul {
+            width: 30vw;
+            margin: 32px auto;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            color: white;
+        }
+
+        #wrapper ul li:hover {
+            color: #6633cc;
+            cursor: pointer;
+            transition: 300ms;
+        }
+
+        #wrapper ul li img {
+            width: 50%;
+        }
+
+        #wrapper ul li h2 {
+            font-size: 18px;
+        }
+
+        #links-footer a {
+            border-bottom: 1px solid var(--color-green);
+        }
+
+        #links-footer a:hover {
+            color: #50fa7b;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="tel:+5547992078767">Sobre</a>
+            <a href="https://discordapp.com/invite/gCRAFhc">Comunidade</a>
+            <a href="mailto:oi@rocketseat.com.br">Email</a>
+            <a href="tel:+5547992078767">Telefone</a>
+            <a href="conteudos.html">Conteúdos</a>
+        </div>
+    </header>
+
+    <div id="wrapper">
+        <img src="https://rocketseat.gallerycdn.vsassets.io/extensions/rocketseat/rocketseatreactnative/3.0.1/1588456740326/Microsoft.VisualStudio.Services.Icons.Default"
+            alt="Rocketseat">
+        <h1>Rocketseat</h1>
+        <p>Embarque nesse foguete e comece a avançar agora mesmo na direção dos seus objetivos.</p>
+        <ul>
+            <li class="item">
+                <img src="https://xesque.rocketseat.dev/platform/1566444110414.png" alt="JavaScript">
+                <h2>JavaScript</h2>
+            </li>
+            <li class="item">
+                <img src="https://xesque.rocketseat.dev/platform/1566444881250.png" alt="ES6">
+                <h2>ES6</h2>
+            </li>
+            <li class="item">
+                <img src="https://xesque.rocketseat.dev/platform/1564681946529.svg" alt="NodeJS">
+                <h2>NodeJS</h2>
+            </li>
+            <li class="item">
+                <img src="https://xesque.rocketseat.dev/platform/1564682281422.svg" alt="ReactJS">
+                <h2>ReactJS</h2>
+            </li>
+            <li class="item">
+                <img src="https://xesque.rocketseat.dev/platform/1564682425906.svg" alt="React Native">
+                <h2>React Native</h2>
+            </li>
+
+        </ul>
+    </div>
+
+    <div id="links-footer" class="links">
+        <a href="https://github.com/Rocketseat" target="_blank">Github</a>
+        <a href="https://www.instagram.com/rocketseat_oficial/?hl=pt-br" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/rocketseat" target="_blank">Facebook</a>
+    </div>
+</body>
+
+</html>
